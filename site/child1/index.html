@@ -84,9 +84,12 @@
                 <div class="col-md-9" role="main">
 
 <h1 id="community-site">Community Site</h1>
-<p>This content isn't part of the <a href="http://people-poc.aws.mattsnell.com">main site</a>, it's maintained by a community content editor.  When changes to this site are pushed to <a href="http://github.com">github</a>, a CodePipeline job is executed to build and deploy a new container to AWS ECS.</p>
-<p>In this container, I've configured apache "AllowOverride" to "All".  This gives the content editor basic control over access to the content they present.</p>
-<p>I have some <a href="protected/index.html">important stuff</a> for you to see if you know the password...</p></div>
+<p>This static content isn't part of the <a href="http://people-poc.aws.mattsnell.com">main site</a>, it's maintained by a community content editor.  When changes to this site are pushed to <a href="http://github.com">github</a>, an AWS CodePipeline job is executed to build and deploy this site to a Docker container hosted by Amazon ECS (learn more <a href="http://people-poc.aws.mattsnell.com/details/">here</a>).</p>
+<p>This site is served by the <a href="http://httpd.apache.org/">Apache HTTP server</a>, I've configured the apache directive "AllowOverride" to "All".  This gives the content editor basic control over access to the content they present.</p>
+<p>To illustrate that, I have some <a href="protected/index.html">important stuff</a> for you to see if you know the password...</p>
+<p><em>(hint, the username is <strong>matt</strong> and the password is <strong>snell</strong>)</em></p>
+<hr />
+<p>Return <a href="http://people-poc.aws.mattsnell.com">home</a>, or learn <a href="http://people-poc.aws.mattsnell.com/details/">about this project</a></p></div>
         </div>
 
         <footer class="col-md-12">
@@ -169,5 +172,5 @@
 
 <!--
 MkDocs version : 1.0.2
-Build Date UTC : 2018-10-03 00:24:00
+Build Date UTC : 2018-10-03 14:57:01
 -->
