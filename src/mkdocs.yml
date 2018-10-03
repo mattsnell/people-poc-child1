@@ -1,0 +1,4 @@
+site_name: people-poc - community
+nav:
+  - index.md
+  - protected/index.md
